@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 function TypingEffect({ header, text, portfolio, services, contact_me }) {
   const split_header = String(header).split("");
